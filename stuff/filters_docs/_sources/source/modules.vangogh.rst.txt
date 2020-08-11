@@ -1,0 +1,10 @@
+modules.vangogh package
+=======================
+
+Module contents
+---------------
+
+.. automodule:: modules.vangogh
+   :members:
+   :undoc-members:
+   :show-inheritance:

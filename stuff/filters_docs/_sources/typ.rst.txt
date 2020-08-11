@@ -1,0 +1,7 @@
+typ module
+==========
+
+.. automodule:: typ
+   :members:
+   :undoc-members:
+   :show-inheritance:

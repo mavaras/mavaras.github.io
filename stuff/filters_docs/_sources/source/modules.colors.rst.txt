@@ -1,0 +1,10 @@
+modules.colors package
+======================
+
+Module contents
+---------------
+
+.. automodule:: modules.colors
+   :members:
+   :undoc-members:
+   :show-inheritance:

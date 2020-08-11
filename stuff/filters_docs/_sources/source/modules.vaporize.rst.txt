@@ -1,0 +1,10 @@
+modules.vaporize package
+========================
+
+Module contents
+---------------
+
+.. automodule:: modules.vaporize
+   :members:
+   :undoc-members:
+   :show-inheritance:

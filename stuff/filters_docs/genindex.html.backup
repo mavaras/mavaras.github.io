@@ -1,0 +1,494 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Index &mdash; Filters  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="#" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> Filters
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="modules.colors.html">modules.colors package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules.glitches.html">modules.glitches package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules.vangogh.html">modules.vangogh package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules.vaporize.html">modules.vaporize package</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Filters</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Index</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+
+<h1 id="index">Index</h1>
+
+<div class="genindex-jumpbox">
+ <a href="#_"><strong>_</strong></a>
+ | <a href="#A"><strong>A</strong></a>
+ | <a href="#C"><strong>C</strong></a>
+ | <a href="#D"><strong>D</strong></a>
+ | <a href="#G"><strong>G</strong></a>
+ | <a href="#M"><strong>M</strong></a>
+ | <a href="#N"><strong>N</strong></a>
+ | <a href="#O"><strong>O</strong></a>
+ | <a href="#P"><strong>P</strong></a>
+ | <a href="#R"><strong>R</strong></a>
+ | <a href="#S"><strong>S</strong></a>
+ | <a href="#T"><strong>T</strong></a>
+ | <a href="#U"><strong>U</strong></a>
+ | <a href="#V"><strong>V</strong></a>
+ 
+</div>
+<h2 id="_">_</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="typ.html#typ.GlitchTypes.__annotations__">__annotations__ (typ.GlitchTypes attribute)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="typ.html#typ.GlitchTypes.__doc__">__doc__ (typ.GlitchTypes attribute)</a>
+</li>
+      <li><a href="typ.html#typ.GlitchTypes.__module__">__module__ (typ.GlitchTypes attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="A">A</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="typ.html#typ.GlitchTypes.ABSTRACT">ABSTRACT (typ.GlitchTypes attribute)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="modules.glitches.html#modules.glitches.abstract_glitch">abstract_glitch() (in module modules.glitches)</a>, <a href="source/modules.glitches.html#modules.glitches.abstract_glitch">[1]</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="C">C</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="utils.html#utils.clipped_addition">clipped_addition() (in module utils)</a>
+</li>
+      <li><a href="modules.colors.html#modules.colors.colorize">colorize() (in module modules.colors)</a>, <a href="source/modules.colors.html#modules.colors.colorize">[1]</a>
+</li>
+      <li><a href="typ.html#typ.GlitchTypes.COLORIZED">COLORIZED (typ.GlitchTypes attribute)</a>
+</li>
+      <li><a href="modules.colors.html#modules.colors.colorized_grid">colorized_grid() (in module modules.colors)</a>, <a href="source/modules.colors.html#modules.colors.colorized_grid">[1]</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    conf
+
+      <ul>
+        <li><a href="conf.html#module-conf">module</a>, <a href="source/conf.html#module-conf">[1]</a>
+</li>
+      </ul></li>
+      <li><a href="typ.html#typ.GlitchTypes.CYCLE">CYCLE (typ.GlitchTypes attribute)</a>
+</li>
+      <li><a href="modules.glitches.html#modules.glitches.cycle_glitch">cycle_glitch() (in module modules.glitches)</a>, <a href="source/modules.glitches.html#modules.glitches.cycle_glitch">[1]</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="D">D</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="utils.html#utils.direction">direction() (in module utils)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="G">G</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="utils.html#utils.get_eyes_classifier">get_eyes_classifier() (in module utils)</a>
+</li>
+      <li><a href="utils.html#utils.get_face_classifier">get_face_classifier() (in module utils)</a>
+</li>
+      <li><a href="utils.html#utils.get_faces">get_faces() (in module utils)</a>
+</li>
+      <li><a href="utils.html#utils.get_palette">get_palette() (in module utils)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="modules.glitches.html#modules.glitches.glitch">glitch() (in module modules.glitches)</a>, <a href="source/modules.glitches.html#modules.glitches.glitch">[1]</a>
+</li>
+      <li><a href="modules.glitches.html#modules.glitches.glitch_bytes">glitch_bytes() (in module modules.glitches)</a>, <a href="source/modules.glitches.html#modules.glitches.glitch_bytes">[1]</a>
+</li>
+      <li><a href="typ.html#typ.GlitchTypes">GlitchTypes (class in typ)</a>
+</li>
+      <li><a href="modules.colors.html#modules.colors.grayscale">grayscale() (in module modules.colors)</a>, <a href="source/modules.colors.html#modules.colors.grayscale">[1]</a>
+</li>
+      <li><a href="index.html#modules.grid.grid">grid() (in module modules.grid)</a>, <a href="modules.html#modules.grid.grid">[1]</a>, <a href="source/modules.html#modules.grid.grid">[2]</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="M">M</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    module
+
+      <ul>
+        <li><a href="conf.html#module-conf">conf</a>, <a href="source/conf.html#module-conf">[1]</a>
+</li>
+        <li><a href="modules.html#module-modules">modules</a>, <a href="source/modules.html#module-modules">[1]</a>
+</li>
+        <li><a href="modules.colors.html#module-modules.colors">modules.colors</a>, <a href="source/modules.colors.html#module-modules.colors">[1]</a>
+</li>
+        <li><a href="modules.glitches.html#module-modules.glitches">modules.glitches</a>, <a href="source/modules.glitches.html#module-modules.glitches">[1]</a>
+</li>
+        <li><a href="index.html#module-modules.grid">modules.grid</a>, <a href="modules.html#module-modules.grid">[1]</a>, <a href="source/modules.html#module-modules.grid">[2]</a>
+</li>
+        <li><a href="modules.vangogh.html#module-modules.vangogh">modules.vangogh</a>, <a href="source/modules.vangogh.html#module-modules.vangogh">[1]</a>
+</li>
+        <li><a href="modules.vaporize.html#module-modules.vaporize">modules.vaporize</a>, <a href="source/modules.vaporize.html#module-modules.vaporize">[1]</a>
+</li>
+        <li><a href="test.html#module-test">test</a>
+</li>
+        <li><a href="typ.html#module-typ">typ</a>
+</li>
+        <li><a href="utils.html#module-utils">utils</a>
+</li>
+      </ul></li>
+      <li>
+    modules
+
+      <ul>
+        <li><a href="modules.html#module-modules">module</a>, <a href="source/modules.html#module-modules">[1]</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    modules.colors
+
+      <ul>
+        <li><a href="modules.colors.html#module-modules.colors">module</a>, <a href="source/modules.colors.html#module-modules.colors">[1]</a>
+</li>
+      </ul></li>
+      <li>
+    modules.glitches
+
+      <ul>
+        <li><a href="modules.glitches.html#module-modules.glitches">module</a>, <a href="source/modules.glitches.html#module-modules.glitches">[1]</a>
+</li>
+      </ul></li>
+      <li>
+    modules.grid
+
+      <ul>
+        <li><a href="index.html#module-modules.grid">module</a>, <a href="modules.html#module-modules.grid">[1]</a>, <a href="source/modules.html#module-modules.grid">[2]</a>
+</li>
+      </ul></li>
+      <li>
+    modules.vangogh
+
+      <ul>
+        <li><a href="modules.vangogh.html#module-modules.vangogh">module</a>, <a href="source/modules.vangogh.html#module-modules.vangogh">[1]</a>
+</li>
+      </ul></li>
+      <li>
+    modules.vaporize
+
+      <ul>
+        <li><a href="modules.vaporize.html#module-modules.vaporize">module</a>, <a href="source/modules.vaporize.html#module-modules.vaporize">[1]</a>
+</li>
+      </ul></li>
+      <li><a href="modules.glitches.html#modules.glitches.multiply">multiply() (in module modules.glitches)</a>, <a href="source/modules.glitches.html#modules.glitches.multiply">[1]</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="N">N</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="utils.html#utils.nearest_color">nearest_color() (in module utils)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="O">O</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="modules.glitches.html#modules.glitches.offset_rect">offset_rect() (in module modules.glitches)</a>, <a href="source/modules.glitches.html#modules.glitches.offset_rect">[1]</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="modules.glitches.html#modules.glitches.offset_rect_colorized">offset_rect_colorized() (in module modules.glitches)</a>, <a href="source/modules.glitches.html#modules.glitches.offset_rect_colorized">[1]</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="P">P</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="utils.html#utils.pixel_in_area">pixel_in_area() (in module utils)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="modules.glitches.html#modules.glitches.pixelize_glitch">pixelize_glitch() (in module modules.glitches)</a>, <a href="source/modules.glitches.html#modules.glitches.pixelize_glitch">[1]</a>
+</li>
+      <li><a href="modules.glitches.html#modules.glitches.pixelize_glitch_vanish">pixelize_glitch_vanish() (in module modules.glitches)</a>, <a href="source/modules.glitches.html#modules.glitches.pixelize_glitch_vanish">[1]</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="R">R</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="utils.html#utils.randomi">randomi() (in module utils)</a>
+</li>
+      <li><a href="utils.html#utils.randomize_strokes_order">randomize_strokes_order() (in module utils)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="utils.html#utils.randomized_grid">randomized_grid() (in module utils)</a>
+</li>
+      <li><a href="utils.html#utils.regulate">regulate() (in module utils)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="S">S</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="modules.colors.html#modules.colors.sepia">sepia() (in module modules.colors)</a>, <a href="source/modules.colors.html#modules.colors.sepia">[1]</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="utils.html#utils.show_palette">show_palette() (in module utils)</a>
+</li>
+      <li><a href="modules.glitches.html#modules.glitches.spilled_glitch">spilled_glitch() (in module modules.glitches)</a>, <a href="source/modules.glitches.html#modules.glitches.spilled_glitch">[1]</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="T">T</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    test
+
+      <ul>
+        <li><a href="test.html#module-test">module</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    typ
+
+      <ul>
+        <li><a href="typ.html#module-typ">module</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="U">U</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    utils
+
+      <ul>
+        <li><a href="utils.html#module-utils">module</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="V">V</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="modules.vangogh.html#modules.vangogh.vangogh">vangogh() (in module modules.vangogh)</a>, <a href="source/modules.vangogh.html#modules.vangogh.vangogh">[1]</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="modules.vaporize.html#modules.vaporize.vaporize">vaporize() (in module modules.vaporize)</a>, <a href="source/modules.vaporize.html#modules.vaporize.vaporize">[1]</a>
+</li>
+  </ul></td>
+</tr></table>
+
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Mario Varas
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

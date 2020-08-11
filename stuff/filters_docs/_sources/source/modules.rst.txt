@@ -1,0 +1,32 @@
+modules package
+===============
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   modules.colors
+   modules.glitches
+   modules.vangogh
+   modules.vaporize
+
+Submodules
+----------
+
+modules.grid module
+-------------------
+
+.. automodule:: modules.grid
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: modules
+   :members:
+   :undoc-members:
+   :show-inheritance:
