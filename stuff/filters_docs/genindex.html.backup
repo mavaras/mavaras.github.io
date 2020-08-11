@@ -11,8 +11,8 @@
   
 
   
-  <link rel="stylesheet" href="/stuff/filters_docs/static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="/stuff/filters_docs/static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="https://mavaras.github.io/stuff/filters_docs/static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="https://mavaras.github.io/stuff/filters_docs/static/pygments.css" type="text/css" />
 
   
   
@@ -21,17 +21,17 @@
 
   
   <!--[if lt IE 9]>
-    <script src="/stuff/filters_docs/static/js/html5shiv.min.js"></script>
+    <script src="https://mavaras.github.io/stuff/filters_docs/static/jshtml5shiv.min.js"></script>
   <![endif]-->
   
     
-      <script type="text/javascript" id="documentation_options" data-url_root="./" src="/stuff/filters_docs/static/documentation_options.js"></script>
-        <script src="/stuff/filters_docs/static/jquery.js"></script>
-        <script src="/stuff/filters_docs/static/underscore.js"></script>
-        <script src="/stuff/filters_docs/static/doctools.js"></script>
-        <script src="/stuff/filters_docs/static/language_data.js"></script>
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="https://mavaras.github.io/stuff/filters_docs/static/documentation_options.js"></script>
+        <script src="https://mavaras.github.io/stuff/filters_docs/static/jquery.js"></script>
+        <script src="https://mavaras.github.io/stuff/filters_docs/static/underscore.js"></script>
+        <script src="https://mavaras.github.io/stuff/filters_docs/static/doctools.js"></script>
+        <script src="https://mavaras.github.io/stuff/filters_docs/static/language_data.js"></script>
     
-    <script type="text/javascript" src="/stuff/filters_docs/static/js/theme.js"></script>
+    <script type="text/javascript" src="https://mavaras.github.io/stuff/filters_docs/static/js/theme.js"></script>
 
     
     <link rel="index" title="Index" href="#" />
@@ -85,6 +85,7 @@
 <li class="toctree-l1"><a class="reference internal" href="modules.glitches.html">modules.glitches package</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modules.vangogh.html">modules.vangogh package</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modules.vaporize.html">modules.vaporize package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules.grid.html">modules.grid package</a></li>
 </ul>
 
             
@@ -250,7 +251,7 @@
 </li>
       <li><a href="modules.colors.html#modules.colors.grayscale">grayscale() (in module modules.colors)</a>, <a href="source/modules.colors.html#modules.colors.grayscale">[1]</a>
 </li>
-      <li><a href="index.html#modules.grid.grid">grid() (in module modules.grid)</a>, <a href="modules.html#modules.grid.grid">[1]</a>, <a href="source/modules.html#modules.grid.grid">[2]</a>
+      <li><a href="modules.grid.html#modules.grid.grid.grid">grid() (in module modules.grid.grid)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -270,7 +271,7 @@
 </li>
         <li><a href="modules.glitches.html#module-modules.glitches">modules.glitches</a>, <a href="source/modules.glitches.html#module-modules.glitches">[1]</a>
 </li>
-        <li><a href="index.html#module-modules.grid">modules.grid</a>, <a href="modules.html#module-modules.grid">[1]</a>, <a href="source/modules.html#module-modules.grid">[2]</a>
+        <li><a href="modules.grid.html#module-modules.grid.grid">modules.grid.grid</a>
 </li>
         <li><a href="modules.vangogh.html#module-modules.vangogh">modules.vangogh</a>, <a href="source/modules.vangogh.html#module-modules.vangogh">[1]</a>
 </li>
@@ -307,10 +308,10 @@
 </li>
       </ul></li>
       <li>
-    modules.grid
+    modules.grid.grid
 
       <ul>
-        <li><a href="index.html#module-modules.grid">module</a>, <a href="modules.html#module-modules.grid">[1]</a>, <a href="source/modules.html#module-modules.grid">[2]</a>
+        <li><a href="modules.grid.html#module-modules.grid.grid">module</a>
 </li>
       </ul></li>
       <li>
@@ -491,4 +492,4 @@
    
 
 </body>
-</html>
+<html>

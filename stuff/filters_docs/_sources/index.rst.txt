@@ -28,12 +28,3 @@ Modules
    modules.vangogh
    modules.vaporize
    modules.grid
-
-
-modules.grid module
--------------------
-
-.. automodule:: modules.grid
-   :members:
-   :undoc-members:
-   :show-inheritance:

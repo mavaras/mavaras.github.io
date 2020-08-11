@@ -12,17 +12,6 @@ Subpackages
    modules.vangogh
    modules.vaporize
 
-Submodules
-----------
-
-modules.grid module
--------------------
-
-.. automodule:: modules.grid
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
 Module contents
 ---------------
 
