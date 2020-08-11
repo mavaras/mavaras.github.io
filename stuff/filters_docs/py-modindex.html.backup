@@ -21,7 +21,7 @@
 
   
   <!--[if lt IE 9]>
-    <script src="https://mavaras.github.io/stuff/filters_docs/static/jshtml5shiv.min.js"></script>
+    <script src="https://mavaras.github.io/stuff/filters_docs/static/js/html5shiv.min.js"></script>
   <![endif]-->
   
     
@@ -196,7 +196,7 @@
      <tr class="cg-1">
        <td></td>
        <td>&#160;&#160;&#160;
-       <a href="modules.vangogh.html#module-modules.vangogh"><code class="xref">modules.vangogh</code></a></td><td>
+       <a href="source/modules.vangogh.html#module-modules.vangogh"><code class="xref">modules.vangogh</code></a></td><td>
        <em></em></td></tr>
      <tr class="cg-1">
        <td></td>
@@ -273,4 +273,4 @@
    
 
 </body>
-<html>
+</html>

@@ -11,7 +11,7 @@ Subpackages
    modules.glitches
    modules.vangogh
    modules.vaporize
-
+   modules.gridº
 Module contents
 ---------------
 

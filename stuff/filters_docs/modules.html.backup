@@ -21,7 +21,7 @@
 
   
   <!--[if lt IE 9]>
-    <script src="https://mavaras.github.io/stuff/filters_docs/static/jshtml5shiv.min.js"></script>
+    <script src="https://mavaras.github.io/stuff/filters_docs/static/js/html5shiv.min.js"></script>
   <![endif]-->
   
     
@@ -161,6 +161,7 @@
 <li class="toctree-l1"><a class="reference internal" href="modules.glitches.html">modules.glitches package</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modules.vangogh.html">modules.vangogh package</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modules.vaporize.html">modules.vaporize package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules.grid.html">modules.grid package</a></li>
 </ul>
 </div>
 </div>
@@ -216,4 +217,4 @@
    
 
 </body>
-<html>
+</html>

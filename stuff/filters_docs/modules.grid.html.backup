@@ -21,7 +21,7 @@
 
   
   <!--[if lt IE 9]>
-    <script src="https://mavaras.github.io/stuff/filters_docs/static/jshtml5shiv.min.js"></script>
+    <script src="https://mavaras.github.io/stuff/filters_docs/static/js/html5shiv.min.js"></script>
   <![endif]-->
   
     
@@ -175,6 +175,8 @@
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
+<a class="reference internal image-reference" href="images/me.jpeg"><img alt="images/me.jpeg" src="images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="images/me_grid.jpg"><img alt="images/me_grid.jpg" src="images/me_grid.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 </div>
@@ -233,4 +235,4 @@
    
 
 </body>
-<html>
+</html>

@@ -21,7 +21,7 @@
 
   
   <!--[if lt IE 9]>
-    <script src="https://mavaras.github.io/stuff/filters_docs/static/jshtml5shiv.min.js"></script>
+    <script src="https://mavaras.github.io/stuff/filters_docs/static/js/html5shiv.min.js"></script>
   <![endif]-->
   
     
@@ -214,4 +214,4 @@
    
 
 </body>
-<html>
+</html>
