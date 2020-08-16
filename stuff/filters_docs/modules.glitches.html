@@ -157,7 +157,7 @@
 <span id="modules-glitches-package"></span><h1>modules.glitches package<a class="headerlink" href="#module-modules.glitches" title="Permalink to this headline">¶</a></h1>
 <dl class="py function">
 <dt id="modules.glitches.abstract_glitch">
-<code class="sig-prename descclassname">modules.glitches.</code><code class="sig-name descname">abstract_glitch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">img</span><span class="p">:</span> <span class="n">numpy.ndarray</span></em>, <em class="sig-param"><span class="n">translation_x</span><span class="p">:</span> <span class="n">Dict<span class="p">[</span>str<span class="p">, </span>int<span class="p">]</span></span></em>, <em class="sig-param"><span class="n">area</span><span class="p">:</span> <span class="n">List<span class="p">[</span>int<span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="n">n_slices</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">20</span></em><span class="sig-paren">)</span> &#x2192; numpy.ndarray<a class="headerlink" href="#modules.glitches.abstract_glitch" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">modules.glitches.</code><code class="sig-name descname">abstract_glitch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">img</span><span class="p">:</span> <span class="n">numpy.ndarray</span></em>, <em class="sig-param"><span class="n">area</span><span class="p">:</span> <span class="n">List<span class="p">[</span>int<span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="n">translation_x</span><span class="p">:</span> <span class="n">List<span class="p">[</span>int<span class="p">]</span></span> <span class="o">=</span> <span class="default_value">[0, 0]</span></em>, <em class="sig-param"><span class="n">n_slices</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">20</span></em><span class="sig-paren">)</span> &#x2192; numpy.ndarray<a class="headerlink" href="#modules.glitches.abstract_glitch" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="simple">
 <dt>Applies a glitch based on a pattern of repetition of rectangles in the specified area</dt><dd><p>of the given image.</p>
 </dd>
@@ -166,7 +166,7 @@
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>img</strong> (<em>ImageType</em>) – A numpy array representing an image</p></li>
-<li><p><strong>translation_x</strong> (<em>Dict</em><em>[</em><em>str</em><em>,</em><em>int</em><em>]</em>) – lower/upper limit for generating random glitch rectangles width</p></li>
+<li><p><strong>translation_x</strong> (<em>List</em><em>[</em><em>int</em><em>]</em>) – [min, max] range for generating random glitch rectangles width</p></li>
 <li><p><strong>area</strong> (<em>List</em><em>[</em><em>int</em><em>]</em>) – img area (x, y, w, h) to apply the filter, default to None (all image)</p></li>
 <li><p><strong>n_slices</strong> (<em>int</em>) – nº of glitch ‘slices’ that will appear in the provided area, defaults to 20</p></li>
 </ul>
@@ -178,11 +178,15 @@
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch1.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch1.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch1.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch2.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch2.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch2.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch3.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch3.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch3.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 <dl class="py function">
 <dt id="modules.glitches.cycle_glitch">
-<code class="sig-prename descclassname">modules.glitches.</code><code class="sig-name descname">cycle_glitch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">img</span><span class="p">:</span> <span class="n">numpy.ndarray</span></em>, <em class="sig-param"><span class="n">translation_x</span><span class="p">:</span> <span class="n">Dict<span class="p">[</span>str<span class="p">, </span>int<span class="p">]</span></span></em>, <em class="sig-param"><span class="n">area</span><span class="p">:</span> <span class="n">List<span class="p">[</span>int<span class="p">]</span></span></em>, <em class="sig-param"><span class="n">n_slices</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">20</span></em><span class="sig-paren">)</span> &#x2192; numpy.ndarray<a class="headerlink" href="#modules.glitches.cycle_glitch" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">modules.glitches.</code><code class="sig-name descname">cycle_glitch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">img</span><span class="p">:</span> <span class="n">numpy.ndarray</span></em>, <em class="sig-param"><span class="n">area</span><span class="p">:</span> <span class="n">List<span class="p">[</span>int<span class="p">]</span></span></em>, <em class="sig-param"><span class="n">translation_x</span><span class="p">:</span> <span class="n">List<span class="p">[</span>int<span class="p">]</span></span></em>, <em class="sig-param"><span class="n">n_slices</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">20</span></em><span class="sig-paren">)</span> &#x2192; numpy.ndarray<a class="headerlink" href="#modules.glitches.cycle_glitch" title="Permalink to this definition">¶</a></dt>
 <dd><p>Draws kind of ‘artificial’ glitch effect on the specified area of the provided
 image, by drawing different distortioned ‘slices’. This is like the <a class="reference internal" href="source/modules.glitches.html#modules.glitches.glitch" title="modules.glitches.glitch"><code class="xref py py-func docutils literal notranslate"><span class="pre">glitch()</span></code></a> but
 making the slices follow a cyclic distortion.</p>
@@ -190,7 +194,7 @@ making the slices follow a cyclic distortion.</p>
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>img</strong> (<em>ImageType</em>) – A numpy array representing an image</p></li>
-<li><p><strong>translation_x</strong> (<em>Dict</em><em>[</em><em>str</em><em>,</em><em>int</em><em>]</em>) – lower/upper limit for generating random glitch slices width</p></li>
+<li><p><strong>translation_x</strong> (<em>List</em><em>[</em><em>int</em><em>]</em>) – [min, max] range for generating random glitch slices width</p></li>
 <li><p><strong>area</strong> (<em>List</em><em>[</em><em>int</em><em>]</em>) – img area (x, y, w, h) to apply the filter, default to None (all image)</p></li>
 <li><p><strong>n_slices</strong> (<em>int</em>) – nº of glitch ‘slices’ that will appear in the provided area, defaults to 20</p></li>
 </ul>
@@ -202,18 +206,20 @@ making the slices follow a cyclic distortion.</p>
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_cycle_glitch.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_cycle_glitch.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_cycle_glitch.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 <dl class="py function">
 <dt id="modules.glitches.glitch">
-<code class="sig-prename descclassname">modules.glitches.</code><code class="sig-name descname">glitch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">img</span><span class="p">:</span> <span class="n">numpy.ndarray</span></em>, <em class="sig-param"><span class="n">translation_x</span><span class="p">:</span> <span class="n">Dict<span class="p">[</span>str<span class="p">, </span>int<span class="p">]</span></span></em>, <em class="sig-param"><span class="n">area</span><span class="p">:</span> <span class="n">List<span class="p">[</span>int<span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="n">face</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">False</span></em>, <em class="sig-param"><span class="n">n_slices</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">20</span></em><span class="sig-paren">)</span> &#x2192; numpy.ndarray<a class="headerlink" href="#modules.glitches.glitch" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">modules.glitches.</code><code class="sig-name descname">glitch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">img</span><span class="p">:</span> <span class="n">numpy.ndarray</span></em>, <em class="sig-param"><span class="n">area</span><span class="p">:</span> <span class="n">List<span class="p">[</span>int<span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="n">translation_x</span><span class="p">:</span> <span class="n">List<span class="p">[</span>int<span class="p">]</span></span> <span class="o">=</span> <span class="default_value">[0, 0]</span></em>, <em class="sig-param"><span class="n">face</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">False</span></em>, <em class="sig-param"><span class="n">n_slices</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">20</span></em><span class="sig-paren">)</span> &#x2192; numpy.ndarray<a class="headerlink" href="#modules.glitches.glitch" title="Permalink to this definition">¶</a></dt>
 <dd><p>Draws kind of ‘artificial’ glitch effect on the specified area of the provided
 image, by drawing different distortioned ‘slices’.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>img</strong> (<em>ImageType</em>) – A numpy array representing an image</p></li>
-<li><p><strong>translation_x</strong> (<em>Dict</em><em>[</em><em>str</em><em>,</em><em>int</em><em>]</em>) – lower/upper limit for generating random glitch slices width</p></li>
+<li><p><strong>translation_x</strong> (<em>List</em><em>[</em><em>int</em><em>]</em>) – [min, max] range for generating random glitch slices width</p></li>
 <li><p><strong>area</strong> (<em>List</em><em>[</em><em>int</em><em>]</em>) – img area (x, y, w, h) to apply the filter, default to None (all image)</p></li>
 <li><p><strong>face</strong> (<em>bool</em>) – If True filter is applied to img face area (if exists), defaults to False</p></li>
 <li><p><strong>n_slices</strong> (<em>int</em>) – nº of glitch ‘slices’ that will appear in the provided area, defaults to 20</p></li>
@@ -236,7 +242,7 @@ image extension and returns a ‘random’ result of glitching &amp; deforming t
 So my suggestion is to test it multiple times with the same image to see the different
 kinds of possible results.
 For now, it works with .jpg, .jpeg, .png, .bmp, .gif and .tiff.
-I recommend you to highly reduce the intensity for large https://mavaras.github.io/stuff/filters_docs/images.</p>
+I recommend you to highly reduce the intensity for large images.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -251,6 +257,10 @@ I recommend you to highly reduce the intensity for large https://mavaras.github.
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes1.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes1.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes1.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes2.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes2.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes2.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes3.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes3.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes3.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 <dl class="py function">
@@ -281,6 +291,8 @@ or right as desired.</p>
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_offset_rect.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_offset_rect.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_offset_rect.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 <dl class="py function">
@@ -304,6 +316,8 @@ based on the provided color channel of the (0,0, area_w,area_h) selection of the
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_offset_rect_colorized.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_offset_rect_colorized.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_offset_rect_colorized.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 <dl class="py function">
@@ -317,6 +331,7 @@ It can be with random colors or based on image palette.</p>
 <li><p><strong>img</strong> (<em>ImageType</em>) – A numpy array representing an image</p></li>
 <li><p><strong>area</strong> (<em>List</em><em>[</em><em>int</em><em>]</em>) – img area (x, y, w, h) to apply the filter, default to None (all image)</p></li>
 <li><p><strong>n_slices</strong> (<em>int</em>) – nº of glitch ‘rows’ that will appear in the provided area</p></li>
+<li><p><strong>gtype</strong> (<em>str</em>) – ‘image_based’, ‘image_based_inv’, ‘image_based_rand’ or ‘random’, defaults to ‘random’</p></li>
 <li><p><strong>by_pixel</strong> (<em>bool</em>) – If true, the colorize process will be applied to each pixel,
 if False it will be applied to slices of a determined width, defaults to True</p></li>
 <li><p><strong>channel</strong> (<em>int</em>) – Color channel to modify. You can pass a range as an slice, defaults to None</p></li>
@@ -332,6 +347,12 @@ if False it will be applied to slices of a determined width, defaults to True</p
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize3.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize3.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize3.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize4.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize4.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize4.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize5.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize5.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize5.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize2.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize2.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize2.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize1.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize1.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize1.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 <dl class="py function">
@@ -355,6 +376,8 @@ more ‘pixelized’ the image will look like</p></li>
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_vanish.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_vanish.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_vanish.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 <dl class="py function">
@@ -379,6 +402,8 @@ else is based on the y start_pos, defaults to False</p></li>
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_spilled.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_spilled.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_spilled.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 </div>
