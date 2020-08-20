@@ -11,8 +11,8 @@
   
 
   
-  <link rel="stylesheet" href="https://mavaras.github.io/stuff/filters_docs/staticcss/theme.css" type="text/css" />
-  <link rel="stylesheet" href="https://mavaras.github.io/stuff/filters_docs/staticpygments.css" type="text/css" />
+  <link rel="stylesheet" href="https://mavaras.github.io/stuff/filters_docs/static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="https://mavaras.github.io/stuff/filters_docs/static/pygments.css" type="text/css" />
 
   
   
@@ -21,21 +21,22 @@
 
   
   <!--[if lt IE 9]>
-    <script src="https://mavaras.github.io/stuff/filters_docs/staticjs/html5shiv.min.js"></script>
+    <script src="https://mavaras.github.io/stuff/filters_docs/static/js/html5shiv.min.js"></script>
   <![endif]-->
   
     
-      <script type="text/javascript" id="documentation_options" data-url_root="./" src="https://mavaras.github.io/stuff/filters_docs/staticdocumentation_options.js"></script>
-        <script src="https://mavaras.github.io/stuff/filters_docs/staticjquery.js"></script>
-        <script src="https://mavaras.github.io/stuff/filters_docs/staticunderscore.js"></script>
-        <script src="https://mavaras.github.io/stuff/filters_docs/staticdoctools.js"></script>
-        <script src="https://mavaras.github.io/stuff/filters_docs/staticlanguage_data.js"></script>
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="https://mavaras.github.io/stuff/filters_docs/static/documentation_options.js"></script>
+        <script src="https://mavaras.github.io/stuff/filters_docs/static/jquery.js"></script>
+        <script src="https://mavaras.github.io/stuff/filters_docs/static/underscore.js"></script>
+        <script src="https://mavaras.github.io/stuff/filters_docs/static/doctools.js"></script>
+        <script src="https://mavaras.github.io/stuff/filters_docs/static/language_data.js"></script>
     
-    <script type="text/javascript" src="https://mavaras.github.io/stuff/filters_docs/staticjs/theme.js"></script>
+    <script type="text/javascript" src="https://mavaras.github.io/stuff/filters_docs/static/js/theme.js"></script>
 
     
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="modules.grid package" href="modules.grid.html" />
     <link rel="prev" title="modules.vangogh package" href="modules.vangogh.html" /> 
 </head>
 
@@ -86,6 +87,7 @@
 <li class="toctree-l1"><a class="reference internal" href="modules.glitches.html">modules.glitches package</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modules.vangogh.html">modules.vangogh package</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">modules.vaporize package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules.grid.html">modules.grid package</a></li>
 </ul>
 
             
@@ -167,6 +169,8 @@
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="modules.grid.html" class="btn btn-neutral float-right" title="modules.grid package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="modules.vangogh.html" class="btn btn-neutral float-left" title="modules.vangogh package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

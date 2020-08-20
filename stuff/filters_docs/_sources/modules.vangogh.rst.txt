@@ -1,7 +1,6 @@
 modules.vangogh package
 =======================
 
-
 .. automodule:: modules.vangogh
    :members:
    :undoc-members:

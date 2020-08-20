@@ -1,7 +1,6 @@
 modules.vaporize package
 ========================
 
-
 .. automodule:: modules.vaporize
    :members:
    :undoc-members:

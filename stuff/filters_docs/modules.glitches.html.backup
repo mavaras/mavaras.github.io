@@ -11,8 +11,8 @@
   
 
   
-  <link rel="stylesheet" href="https://mavaras.github.io/stuff/filters_docs/staticcss/theme.css" type="text/css" />
-  <link rel="stylesheet" href="https://mavaras.github.io/stuff/filters_docs/staticpygments.css" type="text/css" />
+  <link rel="stylesheet" href="https://mavaras.github.io/stuff/filters_docs/static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="https://mavaras.github.io/stuff/filters_docs/static/pygments.css" type="text/css" />
 
   
   
@@ -21,17 +21,17 @@
 
   
   <!--[if lt IE 9]>
-    <script src="https://mavaras.github.io/stuff/filters_docs/staticjs/html5shiv.min.js"></script>
+    <script src="https://mavaras.github.io/stuff/filters_docs/static/js/html5shiv.min.js"></script>
   <![endif]-->
   
     
-      <script type="text/javascript" id="documentation_options" data-url_root="./" src="https://mavaras.github.io/stuff/filters_docs/staticdocumentation_options.js"></script>
-        <script src="https://mavaras.github.io/stuff/filters_docs/staticjquery.js"></script>
-        <script src="https://mavaras.github.io/stuff/filters_docs/staticunderscore.js"></script>
-        <script src="https://mavaras.github.io/stuff/filters_docs/staticdoctools.js"></script>
-        <script src="https://mavaras.github.io/stuff/filters_docs/staticlanguage_data.js"></script>
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="https://mavaras.github.io/stuff/filters_docs/static/documentation_options.js"></script>
+        <script src="https://mavaras.github.io/stuff/filters_docs/static/jquery.js"></script>
+        <script src="https://mavaras.github.io/stuff/filters_docs/static/underscore.js"></script>
+        <script src="https://mavaras.github.io/stuff/filters_docs/static/doctools.js"></script>
+        <script src="https://mavaras.github.io/stuff/filters_docs/static/language_data.js"></script>
     
-    <script type="text/javascript" src="https://mavaras.github.io/stuff/filters_docs/staticjs/theme.js"></script>
+    <script type="text/javascript" src="https://mavaras.github.io/stuff/filters_docs/static/js/theme.js"></script>
 
     
     <link rel="index" title="Index" href="genindex.html" />
@@ -178,17 +178,17 @@
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch1.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch1.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch1.jpg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch2.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch2.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch2.jpg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch3.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch3.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_abstract_glitch3.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me.jpeg"><img alt="_images/me.jpeg" src="_images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_abstract_glitch1.jpg"><img alt="_images/me_abstract_glitch1.jpg" src="_images/me_abstract_glitch1.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_abstract_glitch2.jpg"><img alt="_images/me_abstract_glitch2.jpg" src="_images/me_abstract_glitch2.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_abstract_glitch3.jpg"><img alt="_images/me_abstract_glitch3.jpg" src="_images/me_abstract_glitch3.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 <dl class="py function">
 <dt id="modules.glitches.cycle_glitch">
 <code class="sig-prename descclassname">modules.glitches.</code><code class="sig-name descname">cycle_glitch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">img</span><span class="p">:</span> <span class="n">numpy.ndarray</span></em>, <em class="sig-param"><span class="n">area</span><span class="p">:</span> <span class="n">List<span class="p">[</span>int<span class="p">]</span></span></em>, <em class="sig-param"><span class="n">translation_x</span><span class="p">:</span> <span class="n">List<span class="p">[</span>int<span class="p">]</span></span></em>, <em class="sig-param"><span class="n">n_slices</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">20</span></em><span class="sig-paren">)</span> &#x2192; numpy.ndarray<a class="headerlink" href="#modules.glitches.cycle_glitch" title="Permalink to this definition">¶</a></dt>
 <dd><p>Draws kind of ‘artificial’ glitch effect on the specified area of the provided
-image, by drawing different distortioned ‘slices’. This is like the <a class="reference internal" href="source/modules.glitches.html#modules.glitches.glitch" title="modules.glitches.glitch"><code class="xref py py-func docutils literal notranslate"><span class="pre">glitch()</span></code></a> but
+image, by drawing different distortioned ‘slices’. This is like the <a class="reference internal" href="#modules.glitches.glitch" title="modules.glitches.glitch"><code class="xref py py-func docutils literal notranslate"><span class="pre">glitch()</span></code></a> but
 making the slices follow a cyclic distortion.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -206,8 +206,8 @@ making the slices follow a cyclic distortion.</p>
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_cycle_glitch.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_cycle_glitch.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_cycle_glitch.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me.jpeg"><img alt="_images/me.jpeg" src="_images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_cycle_glitch.jpg"><img alt="_images/me_cycle_glitch.jpg" src="_images/me_cycle_glitch.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 <dl class="py function">
@@ -257,10 +257,10 @@ I recommend you to highly reduce the intensity for large images.</p>
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes1.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes1.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes1.jpg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes2.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes2.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes2.jpg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes3.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes3.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_glitch_bytes3.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me.jpeg"><img alt="_images/me.jpeg" src="_images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_glitch_bytes1.jpg"><img alt="_images/me_glitch_bytes1.jpg" src="_images/me_glitch_bytes1.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_glitch_bytes2.jpg"><img alt="_images/me_glitch_bytes2.jpg" src="_images/me_glitch_bytes2.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_glitch_bytes3.jpg"><img alt="_images/me_glitch_bytes3.jpg" src="_images/me_glitch_bytes3.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 <dl class="py function">
@@ -291,8 +291,8 @@ or right as desired.</p>
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_offset_rect.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_offset_rect.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_offset_rect.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me.jpeg"><img alt="_images/me.jpeg" src="_images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_offset_rect.jpg"><img alt="_images/me_offset_rect.jpg" src="_images/me_offset_rect.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 <dl class="py function">
@@ -316,8 +316,8 @@ based on the provided color channel of the (0,0, area_w,area_h) selection of the
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_offset_rect_colorized.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_offset_rect_colorized.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_offset_rect_colorized.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me.jpeg"><img alt="_images/me.jpeg" src="_images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_offset_rect_colorized.jpg"><img alt="_images/me_offset_rect_colorized.jpg" src="_images/me_offset_rect_colorized.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 <dl class="py function">
@@ -347,12 +347,12 @@ if False it will be applied to slices of a determined width, defaults to True</p
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize3.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize3.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize3.jpg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize4.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize4.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize4.jpg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize5.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize5.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize5.jpg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize2.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize2.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize2.jpg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize1.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize1.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_pixelize1.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me.jpeg"><img alt="_images/me.jpeg" src="_images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_pixelize3.jpg"><img alt="_images/me_pixelize3.jpg" src="_images/me_pixelize3.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_pixelize4.jpg"><img alt="_images/me_pixelize4.jpg" src="_images/me_pixelize4.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_pixelize5.jpg"><img alt="_images/me_pixelize5.jpg" src="_images/me_pixelize5.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_pixelize2.jpg"><img alt="_images/me_pixelize2.jpg" src="_images/me_pixelize2.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_pixelize1.jpg"><img alt="_images/me_pixelize1.jpg" src="_images/me_pixelize1.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 <dl class="py function">
@@ -376,8 +376,8 @@ more ‘pixelized’ the image will look like</p></li>
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_vanish.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_vanish.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_vanish.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me.jpeg"><img alt="_images/me.jpeg" src="_images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_vanish.jpg"><img alt="_images/me_vanish.jpg" src="_images/me_vanish.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 <dl class="py function">
@@ -402,8 +402,8 @@ else is based on the y start_pos, defaults to False</p></li>
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_spilled.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_spilled.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_spilled.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me.jpeg"><img alt="_images/me.jpeg" src="_images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_spilled.jpg"><img alt="_images/me_spilled.jpg" src="_images/me_spilled.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 </div>

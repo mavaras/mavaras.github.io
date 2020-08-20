@@ -11,8 +11,8 @@
   
 
   
-  <link rel="stylesheet" href="https://mavaras.github.io/stuff/filters_docs/staticcss/theme.css" type="text/css" />
-  <link rel="stylesheet" href="https://mavaras.github.io/stuff/filters_docs/staticpygments.css" type="text/css" />
+  <link rel="stylesheet" href="https://mavaras.github.io/stuff/filters_docs/static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="https://mavaras.github.io/stuff/filters_docs/static/pygments.css" type="text/css" />
 
   
   
@@ -21,17 +21,17 @@
 
   
   <!--[if lt IE 9]>
-    <script src="https://mavaras.github.io/stuff/filters_docs/staticjs/html5shiv.min.js"></script>
+    <script src="https://mavaras.github.io/stuff/filters_docs/static/js/html5shiv.min.js"></script>
   <![endif]-->
   
     
-      <script type="text/javascript" id="documentation_options" data-url_root="./" src="https://mavaras.github.io/stuff/filters_docs/staticdocumentation_options.js"></script>
-        <script src="https://mavaras.github.io/stuff/filters_docs/staticjquery.js"></script>
-        <script src="https://mavaras.github.io/stuff/filters_docs/staticunderscore.js"></script>
-        <script src="https://mavaras.github.io/stuff/filters_docs/staticdoctools.js"></script>
-        <script src="https://mavaras.github.io/stuff/filters_docs/staticlanguage_data.js"></script>
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="https://mavaras.github.io/stuff/filters_docs/static/documentation_options.js"></script>
+        <script src="https://mavaras.github.io/stuff/filters_docs/static/jquery.js"></script>
+        <script src="https://mavaras.github.io/stuff/filters_docs/static/underscore.js"></script>
+        <script src="https://mavaras.github.io/stuff/filters_docs/static/doctools.js"></script>
+        <script src="https://mavaras.github.io/stuff/filters_docs/static/language_data.js"></script>
     
-    <script type="text/javascript" src="https://mavaras.github.io/stuff/filters_docs/staticjs/theme.js"></script>
+    <script type="text/javascript" src="https://mavaras.github.io/stuff/filters_docs/static/js/theme.js"></script>
 
     
     <link rel="index" title="Index" href="genindex.html" />
@@ -152,11 +152,11 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="module-modules.grid.grid">
-<span id="modules-grid-package"></span><h1>modules.grid package<a class="headerlink" href="#module-modules.grid.grid" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="module-modules.grid">
+<span id="modules-grid-package"></span><h1>modules.grid package<a class="headerlink" href="#module-modules.grid" title="Permalink to this headline">¶</a></h1>
 <dl class="py function">
-<dt id="modules.grid.grid.diagonal_grid">
-<code class="sig-prename descclassname">modules.grid.grid.</code><code class="sig-name descname">diagonal_grid</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">img</span><span class="p">:</span> <span class="n">numpy.ndarray</span></em>, <em class="sig-param"><span class="n">cols</span><span class="p">:</span> <span class="n">int</span></em>, <em class="sig-param"><span class="n">rows</span><span class="p">:</span> <span class="n">int</span></em>, <em class="sig-param"><span class="n">line_width</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">2</span></em>, <em class="sig-param"><span class="n">color</span><span class="p">:</span> <span class="n">Tuple<span class="p">[</span>int<span class="p">]</span></span> <span class="o">=</span> <span class="default_value">0, 0, 0</span></em>, <em class="sig-param"><span class="n">offset</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">0</span></em><span class="sig-paren">)</span> &#x2192; numpy.ndarray<a class="headerlink" href="#modules.grid.grid.diagonal_grid" title="Permalink to this definition">¶</a></dt>
+<dt id="modules.grid.diagonal_grid">
+<code class="sig-prename descclassname">modules.grid.</code><code class="sig-name descname">diagonal_grid</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">img</span><span class="p">:</span> <span class="n">numpy.ndarray</span></em>, <em class="sig-param"><span class="n">cols</span><span class="p">:</span> <span class="n">int</span></em>, <em class="sig-param"><span class="n">rows</span><span class="p">:</span> <span class="n">int</span></em>, <em class="sig-param"><span class="n">line_width</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">2</span></em>, <em class="sig-param"><span class="n">color</span><span class="p">:</span> <span class="n">Tuple<span class="p">[</span>int<span class="p">]</span></span> <span class="o">=</span> <span class="default_value">0, 0, 0</span></em>, <em class="sig-param"><span class="n">offset</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">0</span></em><span class="sig-paren">)</span> &#x2192; numpy.ndarray<a class="headerlink" href="#modules.grid.diagonal_grid" title="Permalink to this definition">¶</a></dt>
 <dd><p>Draws a diagonal grid (45 degrees) of the specified size on the given image</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -176,13 +176,13 @@
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_grid_diagonal.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_grid_diagonal.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_grid_diagonal.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me.jpeg"><img alt="_images/me.jpeg" src="_images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_grid_diagonal.jpg"><img alt="_images/me_grid_diagonal.jpg" src="_images/me_grid_diagonal.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 <dl class="py function">
-<dt id="modules.grid.grid.grid">
-<code class="sig-prename descclassname">modules.grid.grid.</code><code class="sig-name descname">grid</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">img</span><span class="p">:</span> <span class="n">numpy.ndarray</span></em>, <em class="sig-param"><span class="n">cols</span><span class="p">:</span> <span class="n">int</span></em>, <em class="sig-param"><span class="n">rows</span><span class="p">:</span> <span class="n">int</span></em>, <em class="sig-param"><span class="n">line_width</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">2</span></em>, <em class="sig-param"><span class="n">color</span><span class="p">:</span> <span class="n">Tuple<span class="p">[</span>int<span class="p">]</span></span> <span class="o">=</span> <span class="default_value">0, 0, 0</span></em><span class="sig-paren">)</span> &#x2192; numpy.ndarray<a class="headerlink" href="#modules.grid.grid.grid" title="Permalink to this definition">¶</a></dt>
+<dt id="modules.grid.grid">
+<code class="sig-prename descclassname">modules.grid.</code><code class="sig-name descname">grid</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">img</span><span class="p">:</span> <span class="n">numpy.ndarray</span></em>, <em class="sig-param"><span class="n">cols</span><span class="p">:</span> <span class="n">int</span></em>, <em class="sig-param"><span class="n">rows</span><span class="p">:</span> <span class="n">int</span></em>, <em class="sig-param"><span class="n">line_width</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">2</span></em>, <em class="sig-param"><span class="n">color</span><span class="p">:</span> <span class="n">Tuple<span class="p">[</span>int<span class="p">]</span></span> <span class="o">=</span> <span class="default_value">0, 0, 0</span></em><span class="sig-paren">)</span> &#x2192; numpy.ndarray<a class="headerlink" href="#modules.grid.grid" title="Permalink to this definition">¶</a></dt>
 <dd><p>Draws a grid of the specified size on the given image</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -201,8 +201,8 @@
 <dd class="field-odd"><p>ImageType</p>
 </dd>
 </dl>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" src="https://mavaras.github.io/stuff/filters_docs/images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
-<a class="reference internal image-reference" href="https://mavaras.github.io/stuff/filters_docs/images/me_grid.jpg"><img alt="https://mavaras.github.io/stuff/filters_docs/images/me_grid.jpg" src="https://mavaras.github.io/stuff/filters_docs/images/me_grid.jpg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me.jpeg"><img alt="_images/me.jpeg" src="_images/me.jpeg" style="width: 299.0px; height: 299.0px;" /></a>
+<a class="reference internal image-reference" href="_images/me_grid.jpg"><img alt="_images/me_grid.jpg" src="_images/me_grid.jpg" style="width: 299.0px; height: 299.0px;" /></a>
 </dd></dl>
 
 </div>

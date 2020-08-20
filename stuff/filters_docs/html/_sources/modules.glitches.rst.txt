@@ -1,7 +1,0 @@
-modules.glitches package
-========================
-
-.. automodule:: modules.glitches
-   :members:
-   :undoc-members:
-   :show-inheritance:

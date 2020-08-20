@@ -9,9 +9,9 @@ Subpackages
 
    modules.colors
    modules.glitches
+   modules.grid
    modules.vangogh
    modules.vaporize
-   modules.grid
 
 Module contents
 ---------------
